@@ -2,7 +2,7 @@ from flask import Blueprint, render_template
 from blobeom.models import Question
 
 
-bp = Blueprint('main', __name__, url_prefix='/')
+bp = Blueprint('question', __name__, url_prefix='/')
 
 
 @bp.route('/list/')
